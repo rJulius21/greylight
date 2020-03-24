@@ -1,3 +1,26 @@
 .header{
+  display: flex;
+  justify-content: space-around;
   
+  &__heading {
+
+  }
+
+  &__nav { background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+
+  &__nav-list {
+    display: flex;
+  }
+
+  &__nav-item {
+    
+  }
+
+  &__nav-link {
+    
+  }
 }

@@ -25,6 +25,7 @@ img {
 
 .wrapper {
   max-width: 120rem;
+  background-color: rgb(146, 139, 139);
 
   @mixin atMedium {
     margin: 3rem auto;
