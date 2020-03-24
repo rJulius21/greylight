@@ -1,9 +1,10 @@
-.header{
+.header{ border-bottom: 1px solid black;
   display: flex;
   justify-content: space-around;
-  
-  &__heading {
+  align-items: center;
+  height: 8rem;
 
+  &__heading {
   }
 
   &__nav { background-color: red;

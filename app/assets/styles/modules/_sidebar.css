@@ -1,4 +1,6 @@
 .sidebar{
+  width: 20rem;
+  background-color: green;
 
   &__nav {
     
