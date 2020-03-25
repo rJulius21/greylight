@@ -27,8 +27,7 @@ img {
 .wrapper {
   max-width: 120rem;
   border-radius: $bor-rad;
-  background-color: #333333;
-  box-shadow: 0 0 2rem 0 #000000;
+  box-shadow: $box-shadow;
 
   @mixin atMedium {
     margin: 3rem auto;
