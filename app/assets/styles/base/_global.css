@@ -13,6 +13,7 @@ html {
 }
 
 body {
+  background-image: radial-gradient(#b3b3b3, #333333);
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -25,7 +26,9 @@ img {
 
 .wrapper {
   max-width: 120rem;
-  background-color: rgb(146, 139, 139);
+  border-radius: $bor-rad;
+  background-color: #333333;
+  box-shadow: 0 0 2rem 0 #000000;
 
   @mixin atMedium {
     margin: 3rem auto;

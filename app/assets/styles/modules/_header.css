@@ -1,16 +1,22 @@
-.header{ border-bottom: 1px solid black;
+.header{ 
   display: flex;
   justify-content: space-around;
-  align-items: center;
   height: 8rem;
+  background-color: $color-dark;
+  border-bottom: 1px solid $font-light;
 
   &__heading {
-  }
-
-  &__nav { background-color: red;
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
+    width: 70%;
+  }
+
+  &__nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
   }
 
   &__nav-list {
@@ -18,10 +24,21 @@
   }
 
   &__nav-item {
-    
+    width:10rem;
+    margin-right: 1rem;
   }
+  
+  &__nav-link { 
+    display: inline-block;
+    width: 100%;
+    border-radius: $bor-rad-sm;
+    padding: .5rem .9rem;
+    background-color: $color-dark;
+    font-size: 1.6rem;
 
-  &__nav-link {
-    
+    &:hover {
+      background-color: $color-mid;
+      color: $font-dark;
+    }
   }
 }

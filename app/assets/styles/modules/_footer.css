@@ -1,3 +1,36 @@
 .footer{
-  background-color: blue;
+  height: 8rem;
+  background-color: $color-dark;
+  display: flex;
+  justify-content: space-evenly;
+
+  &__nav {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  &__nav-list {
+    display: flex;
+  }
+
+  &__nav-item {
+
+    &:not(:last-child) {
+      margin-right: 2rem;
+    }
+  }
+
+  &__nav-link {
+    font-size: 1.6rem;
+  }
+
+  &__copy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20rem;
+    color: $font-light;
+  }
 }

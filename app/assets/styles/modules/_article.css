@@ -2,4 +2,41 @@
   display: flex;
   flex-direction: column;
   width: 50rem;
+  border-radius: $bor-rad;
+  margin-top: 2rem;
+  padding: 2rem;
+  background-color: $color-light;
+
+  &__heading {
+    margin-bottom: 1rem;
+  }
+
+  &__sub-heading {
+    margin-bottom: 3rem;
+  }
+
+  &__img-box {
+    width: 20rem;
+    margin-bottom: 3rem;
+    border: 3px solid $color-dark;
+  }
+
+  &__img {
+    width: 100%;
+  }
+
+  &__summary {
+    margin-bottom: 3rem;
+    text-indent: $indent;
+  }
+
+  &__link {
+    align-self: center;
+    width: max-content;
+    padding: .6rem 1.2rem;
+    border-radius: $bor-rad-sm;
+    background-color: #444;
+    color: #ddd;
+    font-size: 1.6rem;
+  }
 }
