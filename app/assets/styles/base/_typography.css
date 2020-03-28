@@ -4,7 +4,11 @@ body {
 }
 
 h1 {
-  font-size: 2.8rem;
+  font-size: 2.5rem;
+
+  @mixin atMedium {
+    font-size: 2.8rem;
+  }
 }
 
 h2 {

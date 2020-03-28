@@ -1,36 +1,56 @@
 .footer{
-  height: 8rem;
   background-color: $color-dark;
   display: flex;
+  flex-direction: column;
   justify-content: space-evenly;
 
   &__nav {
-    flex: 1;
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 1rem;
   }
 
   &__nav-list {
+    flex: 1;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    @mixin atMedium {
+      flex-direction: row;
+    }
   }
 
   &__nav-item {
+    width: max-content;
+    padding: .5rem 1rem;
 
     &:not(:last-child) {
-      margin-right: 2rem;
+
+      @mixin atMedium {
+        margin-right: 2rem;
+      }
     }
   }
 
   &__nav-link {
     font-size: 1.6rem;
+
+    &:hover {
+      color: $color-mid;
+    }
   }
 
-  &__copy {
+  &__copy { 
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 20rem;
+    width: 100%;
+    padding: 1rem;
+    background-color: $color-mid;
     color: $font-light;
   }
 }
