@@ -1,7 +1,7 @@
 .article{
   display: flex;
   flex-direction: column;
-  width: 50rem;
+  width: 70rem;
   border-radius: $bor-rad;
   margin-top: 2rem;
   padding: 2rem;
@@ -19,7 +19,7 @@
 
   &__preview-text {
     flex: 1;
-    padding-top: 2rem;
+    padding: 2rem 1rem;
   }
 
   &__sub-heading {
@@ -36,7 +36,7 @@
   }
 
   &__img-box {
-    width: 22rem;
+    width: 30rem;
   }
   
   &__img {
@@ -81,7 +81,7 @@
 
   &__source {
     display: block;
-    max-width: 40rem;
+    max-width: 60rem;
     margin-left: 2rem;
     margin-bottom: 2px;
     padding: .4rem .8rem;
