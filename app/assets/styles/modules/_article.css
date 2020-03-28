@@ -27,11 +27,12 @@
   }
 
   &__author {
-
+    font-size: 1.4rem;
   }
 
   &__date {
     margin-bottom: 3rem;
+    font-size: 1.4rem;
   }
 
   &__img-box {
@@ -56,6 +57,15 @@
     text-indent: $indent;
   }
 
+  &__text-link {
+    text-decoration: underline;
+    color: $color-mid;
+
+    &:hover {
+      color: $color-dark
+    }
+  }
+
   &__references {
     width: 100%;
     margin-top: 2rem;
@@ -73,6 +83,7 @@
     display: block;
     max-width: 40rem;
     margin-left: 2rem;
+    margin-bottom: 2px;
     padding: .4rem .8rem;
     border-radius: $bor-rad-sm;
     background-color: #444;
