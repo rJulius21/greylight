@@ -1,20 +1,33 @@
 .article{
   display: flex;
   flex-direction: column;
-  width: 70rem;
+  width: 30rem;
   border-radius: $bor-rad;
   margin-top: 2rem;
   padding: 2rem;
   background-color: $color-light;
   box-shadow: $box-shadow;
 
+  @mixin atMedium {
+    width: 60rem
+  }
+
   &__heading {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
+
+    @mixin atMedium {
+      margin-bottom: 2rem;
+    }
   }
 
   &__preview {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+
+    @mixin atMedium {
+      flex-direction: row;
+    }
   }
 
   &__preview-text {
@@ -31,12 +44,20 @@
   }
 
   &__date {
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
     font-size: 1.4rem;
+
+    @mixin atMedium {
+      margin-bottom: 3rem;
+    }
   }
 
   &__img-box {
-    width: 30rem;
+    width: 26rem;
+
+    @mixin atMedium {
+      width: 30rem;
+    }
   }
   
   &__img {
@@ -49,6 +70,7 @@
   &__caption {
     margin-bottom: 2rem;
     color: $font-dark;
+    text-align: center;
     font-size: 1rem;
   }
 
@@ -82,13 +104,16 @@
   &__source {
     display: block;
     max-width: 60rem;
-    margin-left: 2rem;
     margin-bottom: 2px;
     padding: .4rem .8rem;
     border-radius: $bor-rad-sm;
     background-color: #444;
     color: #ddd;
     font-size: 1.2rem;
+
+    @mixin atMedium {
+      margin-left: 2rem;
+    }
 
     &:hover {
       background-color: #333;
