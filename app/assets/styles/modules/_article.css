@@ -97,6 +97,9 @@
   &__references {
     width: 100%;
     margin-top: 2rem;
+    border-radius: $bor-rad-sm;
+    padding: 2rem;
+    background-color: #ccc;
   }
 
   &__references-heading {
@@ -118,7 +121,7 @@
     font-size: 1.2rem;
 
     @mixin atMedium {
-      margin-left: 2rem;
+      margin-left: 1rem;
     }
 
     &:hover {
