@@ -3,7 +3,7 @@
   flex-direction: column;
   width: 100%;
   border-radius: $bor-rad;
-  margin-top: 2rem;
+  margin-top: 4rem;
   padding: 2rem;
   background-color: $color-light;
   box-shadow: $box-shadow;

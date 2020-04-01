@@ -1,8 +1,9 @@
 .footer{
-  background-color: $color-dark;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+  padding: 1rem;
+  background-color: $color-dark;
 
   &__nav {
     display: flex;
@@ -50,7 +51,7 @@
     justify-content: center;
     width: 100%;
     padding: 1rem;
-    background-color: $color-mid;
     color: $font-light;
+    font-size: 1.8rem;
   }
 }

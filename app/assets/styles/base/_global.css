@@ -30,6 +30,6 @@ img {
   box-shadow: $box-shadow;
 
   @mixin atMedium {
-    margin: 3rem auto;
+    margin: 0 auto;
   }
 }

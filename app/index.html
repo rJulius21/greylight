@@ -21,22 +21,25 @@
 </head>
 <body>
   <div class="wrapper">
-   <header class="header">
+  <div class="top-marker" id="top-marker"></div>
+   <header class="header" id="header">
      <h1 class="header__heading">Grey-Light Media</h1>
      <nav class="header__nav">
        <ul class="header__nav-list">
          <li class="header__nav-item"><a href="index.html" class="header__nav-link">Home</a></li>
          <li class="header__nav-item"><a href="about.html" class="header__nav-link">About</a></li>
          <li class="header__nav-item"><a href="contact.html" class="header__nav-link">Contact</a></li>
+         <li class="header__nav-item"><a href="#footer" class="header__nav-link">&darr;&darr;</a></li>
        </ul>
      </nav>
+
    </header>
 
    <div class="content">
      <div class="sidebar">
-       <h3 class="sidebar__heading">Articles</h3>
        <nav class="sidebar__nav">
-        <ul class="sidebar__nav-list">
+        <h3 class="sidebar__heading" id="sidebarHeading">Articles</h3>
+        <ul class="sidebar__nav-list" id="sidebarMenu">
           <li class="sidebar__nav-item"><a href="#03-30-2020_navy-hospital-ships" class="sidebar__nav-link">Navy Hospital Ships to Support COVID-19 Efforts</a></li>
           <li class="sidebar__nav-item"><a href="#03-27-2020_N95-masks" class="sidebar__nav-link">The Strory of N95 Masks</a></li>
         </ul>
@@ -179,12 +182,13 @@
 
    </div>
 
-   <footer class="footer">
+   <footer class="footer" id="footer">
     <nav class="footer__nav">
       <ul class="footer__nav-list">
         <li class="footer__nav-item"><a href="index.html" class="footer__nav-link">Home</a></li>
         <li class="footer__nav-item"><a href="about.html" class="footer__nav-link">About Grey-Light Media</a></li>
         <li class="footer__nav-item"><a href="contact.html" class="footer__nav-link">Contact Us</a></li>
+        <li class="footer__nav-item"><a href="#top-marker" class="footer__nav-link">&uarr;&uarr;</a></li>
       </ul>
     </nav>
     <p class="footer__copy">
