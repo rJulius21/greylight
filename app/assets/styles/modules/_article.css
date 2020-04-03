@@ -13,7 +13,7 @@
   }
 
   @mixin atMedium {
-    width: 60rem
+    width: 70rem
   }
 
   &__heading {
@@ -113,17 +113,13 @@
 
   &__source {
     display: block;
-    max-width: 60rem;
+    max-width: 100%;
     margin-bottom: 2px;
     padding: .4rem .8rem;
     border-radius: $bor-rad-sm;
     background-color: #444;
     color: #ddd;
     font-size: 1.2rem;
-
-    @mixin atMedium {
-      margin-left: 1rem;
-    }
 
     &:hover {
       background-color: #333;

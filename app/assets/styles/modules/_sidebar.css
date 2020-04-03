@@ -48,15 +48,15 @@
     background-color:rgba(0,0,0,.45);
     text-align: center;
 
-    @mixin atLarge {
-      text-align: left;
-    }
-
     &:hover {
       background-color: rgba(#fff,.1);
     }
+    
+    @mixin atLarge {
+      text-align: left;
+    }
   }
-
+  
   &__nav-link {
     display: inline-block;
     width: 100%;
