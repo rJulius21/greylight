@@ -12,6 +12,22 @@
     flex-direction: row;
   }
 
+  &__logo-box {
+    height: 6rem;
+    margin-right: 2rem;
+  }
+
+  &__logo-link {
+
+    &:hover {
+      filter: brightness(120%);
+    }
+  }
+
+  &__logo {
+    height: 100%;
+  }
+
   &__heading {
     display: flex;
     align-items: center;
