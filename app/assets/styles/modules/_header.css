@@ -12,9 +12,13 @@
     flex-direction: row;
   }
 
-  &__logo-box {
-    height: 6rem;
-    margin-right: 2rem;
+  &__logo-box { 
+    height: 4rem;
+    margin-right: 1rem;
+
+    @mixin atMedium {
+      height: 6rem;
+    }
   }
 
   &__logo-link {
@@ -32,6 +36,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -1rem;
     padding-top: 1rem;
     width: 100%;
   }
