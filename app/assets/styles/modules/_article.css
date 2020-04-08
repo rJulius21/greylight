@@ -84,6 +84,10 @@
   &__text {
     margin-bottom: 1rem;
     text-indent: $indent;
+
+    &--bold {
+      font-weight: 600;
+    }
   }
 
   &__text-link {
@@ -93,6 +97,17 @@
     &:hover {
       color: $color-dark
     }
+  }
+
+  &__list {
+    margin-left: 1.4rem;
+    list-style-type: square;
+  }
+
+  &__list-item {
+    margin-bottom: 1rem;
+    color: $font-dark;
+    font-size: 1.4rem;
   }
 
   &__references {
