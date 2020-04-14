@@ -17,6 +17,7 @@
   }
 
   &__heading {
+    margin-left: 1rem;
     margin-bottom: 0;
 
     @mixin atMedium {
