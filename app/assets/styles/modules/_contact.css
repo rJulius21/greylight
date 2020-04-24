@@ -1,0 +1,44 @@
+.contact {
+  min-height: 100vh;
+  padding: 2rem;
+
+  &__section {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-height: 80vh;
+    border-radius: 3px;
+    padding: 2rem;
+    background-color: $color-dark;
+
+    &:not(:last-child) {
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__section-heading {
+    margin-bottom: 2rem;
+    color: $font-light;
+  }
+
+  &__section-feed {
+
+  }
+
+  &__section-link {
+
+  }
+
+  &__section-text {
+    color: $font-light;
+  }
+}
+
+.twitter-follow-button {
+  margin-bottom: 1rem;
+}
+
+.twitter-timeline {
+  overflow: hidden;
+}
