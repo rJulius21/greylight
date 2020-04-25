@@ -1,6 +1,14 @@
 .contact {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-around;
   min-height: 100vh;
   padding: 2rem;
+
+  @mixin atLarge {
+    flex-direction: row;
+  }
 
   &__section {
     display: flex;
@@ -12,6 +20,9 @@
     
     &:not(:last-child) {
       margin-bottom: 2rem;
+      @mixin atLarge{
+        margin-bottom: 0rem
+      }
     }
   }
   
