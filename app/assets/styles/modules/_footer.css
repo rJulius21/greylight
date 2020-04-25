@@ -68,7 +68,7 @@
   &__social-link {
 
     &:not(:last-child) {
-      margin-right: 4rem;
+      margin-right: 2rem;
     }
   }
 
@@ -76,5 +76,9 @@
     width: 2.6rem;
     height: 2.6rem;
     fill: $font-light;
+
+    &:hover {
+      fill: $font-mid;
+    }
   }
 }

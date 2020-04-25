@@ -3,18 +3,21 @@
   padding: 2rem;
 
   &__section {
-    overflow: hidden;
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-height: 80vh;
     border-radius: 3px;
     padding: 2rem;
     background-color: $color-dark;
-
+    
     &:not(:last-child) {
       margin-bottom: 2rem;
     }
+  }
+  
+  &__section-scroll {
+    overflow: scroll;
+    max-height: 80vh;
   }
 
   &__section-heading {
@@ -40,5 +43,4 @@
 }
 
 .twitter-timeline {
-  overflow: hidden;
 }
