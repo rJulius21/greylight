@@ -95,10 +95,10 @@
 
   &__text-link {
     text-decoration: underline;
-    color: $color-mid;
+    color: $font-dark;
 
     &:hover {
-      color: $color-dark
+      color: $color-mid;
     }
   }
 
@@ -111,6 +111,18 @@
     margin-bottom: 1rem;
     color: $font-dark;
     font-size: 1.4rem;
+  }
+
+  &__section {
+    margin-bottom: 1rem;
+    padding: 2rem;
+    border-radius: $bor-rad;
+    background-color: rgb(214, 214, 214);
+  }
+
+  &__section-heading {
+    margin-bottom: 2rem;
+    font-size: 2rem;
   }
 
   &__references {
