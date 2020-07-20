@@ -38,7 +38,7 @@
     align-items: center;
     margin-bottom: 1rem;
 
-    background-color: blue;
+    background-color: purple;
 
     @mixin atMedium {
       flex-direction: row;
