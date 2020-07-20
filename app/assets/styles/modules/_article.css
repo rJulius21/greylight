@@ -36,8 +36,9 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 1rem;
 
-    background-color: orange;
+    background-color: blue;
 
     @mixin atMedium {
       flex-direction: row;
