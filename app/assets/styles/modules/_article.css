@@ -38,6 +38,8 @@
     margin-bottom: 1rem;
     background-color: $color-dark;
 
+    height: 5rem;
+
     @mixin atMedium {
       flex-direction: row;
       align-items: stretch;
