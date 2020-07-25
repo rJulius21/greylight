@@ -31,10 +31,7 @@
   }
 
   &__preview {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+    display: block;
     margin-bottom: 1rem;
     background-color: $color-dark;
 
@@ -47,7 +44,7 @@
   }
 
   &__preview-text {
-    flex: 1;
+  
     padding: 2rem 1rem;
     color: $font-light;
   }
