@@ -92,6 +92,10 @@
   }
 
   &__text {
+    padding: 1px;
+  }
+
+  &__text {
     margin-bottom: 1rem;
     text-indent: $indent;
 
