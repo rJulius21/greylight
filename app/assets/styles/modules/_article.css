@@ -23,23 +23,26 @@
 
   &__heading {
     margin-bottom: 0;
+    border-radius: 2px 2px 0 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
     background-color: $color-dark;
+    color: $font-light;
 
     @mixin atMedium {
-      margin-bottom: 2rem;
+      padding-bottom: 2rem;
     }
   }
 
   &__preview {
     display: block;
     margin-bottom: 1rem;
+    border-radius: 0 0 2px 2px;
     background-color: $color-dark;
 
-    height: 33rem;
 
     @mixin atMedium {
-      flex-direction: row;
-      align-items: stretch;
+
     }
   }
 
@@ -62,22 +65,16 @@
     margin-bottom: 1rem;
     font-size: 1.4rem;
     color: $font-light;
-
-    @mixin atMedium {
-      margin-bottom: 3rem;
-    }
   }
 
   &__img-box {
     width: 96%;
+    margin: 0 auto;
     padding-top: 2rem;
-
-    @mixin atMedium {
-      width: 30rem;
-    }
+    text-align: center;
   }
   
-  &__img {
+  &__img { 
     margin-bottom: 1rem;
     border-radius: $bor-rad-sm;
     border: 3px solid $color-dark;
@@ -86,14 +83,13 @@
 
   &__caption {
     margin-bottom: 2rem;
-    color: $font-dark;
+    color: $font-light;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
 
-  &__text-box { background-color: red;
-    margin-top: 1rem;
-    padding: 10px;
+  &__text-box { 
+    
   }
 
   &__text {
