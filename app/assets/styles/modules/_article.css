@@ -92,8 +92,8 @@
     font-size: 1rem;
   }
 
-  &__text {
-    padding: 1px;
+  &__text-box { background-color: red;
+    padding: 10px;
   }
 
   &__text {
