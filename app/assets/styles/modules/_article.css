@@ -1,30 +1,29 @@
 .article{ 
- 
+  overflow-y: scroll;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
+
   width: 100%;
   max-height: 70vh;
   border-radius: $bor-rad;
   margin-top: 4rem;
   padding: 2rem;
+
   background-color: $color-light;
   box-shadow: $box-shadow;
-
-  background-color: red;
 
   @mixin atSmall {
     width: 50rem;
   }
 
   @mixin atMedium {
-    width: 70rem
+    width: 70rem;
   }
 
   &__heading {
-    margin-left: 1rem;
     margin-bottom: 0;
-
-    background-color: orangered;
+    background-color: $color-dark;
 
     @mixin atMedium {
       margin-bottom: 2rem;
@@ -37,28 +36,33 @@
     justify-content: space-between;
     align-items: center;
     margin-bottom: 1rem;
+    background-color: $color-dark;
 
-    background-color: purple;
-
-    
+    @mixin atMedium {
+      flex-direction: row;
+      align-items: stretch;
+    }
   }
 
   &__preview-text {
     flex: 1;
     padding: 2rem 1rem;
+    color: $font-light;
   }
 
-  &__sub-heading {
+  &__sub-heading { 
     margin-bottom: 1rem;
   }
 
   &__author {
+    color: $font-light;
     font-size: 1.4rem;
   }
 
   &__date {
     margin-bottom: 1rem;
     font-size: 1.4rem;
+    color: $font-light;
 
     @mixin atMedium {
       margin-bottom: 3rem;
@@ -95,8 +99,6 @@
   &__text {
     margin-bottom: 1rem;
     text-indent: $indent;
-
-    background-color: yellowgreen;
 
     &--bold {
       font-weight: 600;
